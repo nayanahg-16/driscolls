@@ -3,3 +3,14 @@
 *.tfstate.backup
 terraform.tfvars
 .terraform.lock.hcl
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+terraform.tfstate.d/
+
+# Sensitive
+*.pem
+*.key
